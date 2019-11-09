@@ -3,7 +3,7 @@ import App from 'next/app'
 import { ThemeProvider, Styled, ColorMode } from 'theme-ui'
 
 import Header from '../components/Header'
-import theme from '../src/theme'
+import theme from '../theme'
 
 class MyApp extends App {
   // Only uncomment this method if you have blocking data requirements for

@@ -19,7 +19,7 @@
 
 NextJS framework for TELOS and EOSIO dApps. Take the pain out of creating Universal React apps with blockchain integration.
 
-_WIP_
+_Work in progress_
 
 ## Motivation
 
@@ -29,21 +29,51 @@ Next.js performs server-side rendering by default. This makes your application o
 
 Lift, Emanate, Binance, Hulu, Leafly, Hashnode, Twitch, Elastic, Expo, Ferrari and Marvel are using server side rendering with NextJS.
 
+### Why SRR ?
+
+- Superior performance and search engine optimization.
+
 ## Features
 
 - [x] TypeScript.
-- [x] Blockmatic code style.
+- [x] Blockmatic code style. ( Functional JavaScript, Declarative Programming and React Hooks)
 - [x] Out of the box SSR with a simple API provides.
-- [x] Styling with theme-ui.
-- [x] Pre-commit quality hooks with husky.
-- [x] Superior performance and search engine optimization.
+- [x] CSS-in-JS styling based on design system constraints with Theme UI.
+- [x] Pre-commit quality git hooks with husky.
 - [x] Out of the box code-splitting.
 - [ ] Multilanguage (i18n) with i18next.
+- [ ] Non relative (absolute) imports.
+- [ ] Component Error Boundaries.
+- [x] Automatic code splitting.
+- [x] Automatic transpilation and bundling (with webpack and babel).
+- [ ] Hot code reloading.
+- [ ] Automatic testing with Jest.
+- [ ] Serverless continuous deployment with Zeith.
 - ...
 
-## Architecture
+## dApp Architecture
 
 ...
+
+## File Structure
+
+```
+.
+├── components ......................................... Reusable Components
+│   ├── Button.tsx
+│   ├── Form.tsx
+│   ├── NavBar.tsx
+│   └── ...
+├── hooks .............................................. React Hooks
+│   ├── myhook.js
+│   └── ...
+├── pages/ .............................................. Route Container Components
+│   ├── users.tsx
+│   └── ...
+├── public ............................................. Static file serving
+└── library ............................................ Scripts, Services, SDKS,...
+    └── amplify.ts
+```
 
 ## Usage
 

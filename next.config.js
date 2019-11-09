@@ -2,7 +2,7 @@ const withMDX = require('@next/mdx')()
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin')
 
 module.exports = withMDX({
-  pageExtensions: ['js', 'mdx'],
+  pageExtensions: ['js', 'mdx', 'tsx', 'ts'],
   webpack: config => {
     if (config.resolve.plugins) {
       config.resolve.plugins.push(new TsconfigPathsPlugin())
