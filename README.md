@@ -17,8 +17,7 @@
 
 # TELOS NextJS Starter
 
-NextJS framework for TELOS and EOSIO dApps. Take the pain out of creating Universal
-React apps with blockchain integration.
+NextJS framework for TELOS and EOSIO dApps. Take the pain out of creating Universal React apps with blockchain integration.
 
 _WIP_
 
@@ -32,11 +31,14 @@ Lift, Emanate, Binance, Hulu, Leafly, Hashnode, Twitch, Elastic, Expo, Ferrari a
 
 ## Features
 
-- Out of the box SSR with a simple API provides.
-- Superior performance and search engine optimization.
-- Theme UI.
-- Precommits hooks with husky.
-- Blockmatic Code Style.
+- [x] TypeScript.
+- [x] Blockmatic code style.
+- [x] Out of the box SSR with a simple API provides.
+- [x] Styling with theme-ui.
+- [x] Pre-commit quality hooks with husky.
+- [x] Superior performance and search engine optimization.
+- [x] Out of the box code-splitting.
+- [ ] Multilanguage (i18n) with i18next.
 - ...
 
 ## Architecture
@@ -46,6 +48,12 @@ Lift, Emanate, Binance, Hulu, Leafly, Hashnode, Twitch, Elastic, Expo, Ferrari a
 ## Usage
 
 ...
+
+## NextJS vs Gatsby
+
+Use Next.js for Apps, Gatsby for Websites.
+
+https://syntax.fm/show/120/gatsby-vs-next
 
 ## Contributing
 
