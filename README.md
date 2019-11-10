@@ -15,37 +15,49 @@
 	</a>
 </p>
 
-# TELOS NextJS Starter
+# TELOS NextJS dApp Starter
 
 NextJS framework for TELOS and EOSIO dApps. Take the pain out of creating Universal React apps with blockchain integration.
 
-_Work in progress_
-
-## Motivation
+## NextJS
 
 Next.js extends React to provide a powerful method for loading a page's initial data, no matter where it is coming from. With a single place to prepopulate page context, server-side rendering with Next.js seamlessly integrates with any existing data-fetching strategy.
 
 Next.js performs server-side rendering by default. This makes your application optimized for search engines. Also, you can integrate any middleware such as express.js or Hapi.js, and you can run any database such as MongoDB or MySQL.
 
-Lift, Emanate, Binance, Hulu, Leafly, Hashnode, Twitch, Elastic, Expo, Ferrari and Marvel are using server side rendering with NextJS.
+Lift, Binance, Hulu, Leafly, Hashnode, Twitch, Elastic, Expo, Ferrari and Marvel are using server side rendering with NextJS.
 
-### Why SRR ?
+### Server Side Rendering
 
 - Superior performance and search engine optimization.
+
+## NextJS vs Gatsby
+
+Use Next.js for Apps, Gatsby for Websites.
+
+https://syntax.fm/show/120/gatsby-vs-next
+
+## TELOS
+
+Best in class C++ EOSIO protocol technology providing fast, scalable and eco-freindly blockchain augmented by a growing library of Telos services and innovations. Free accounts, work proposals, dapp grants, decentralized exchange, dstor, bancor protocol, telos community and foundation.
+
+## Disclaimer
+
+This is a work in progress. Feel free to reach us out on telegram for clarifications.
+https://t.me/blockmatic
 
 ## Features
 
 - [x] TypeScript.
-- [x] Blockmatic code style. ( Functional JavaScript, Declarative Programming and React Hooks)
-- [x] Out of the box SSR with a simple API provides.
+- [x] Blockmatic code conventions. ( functional, declarative, hooks )
+- [x] Pre-commit code quality git hooks with husky, prettier and eslint.
 - [x] CSS-in-JS styling based on design system constraints with Theme UI.
-- [x] Pre-commit quality git hooks with husky.
-- [x] Out of the box code-splitting.
+- [x] Out-of-the-box server side rendering.
+- [x] Out-of-the-box code-splitting.
+- [x] Automatic transpilation and bundling (with webpack and babel).
 - [ ] Multilanguage (i18n) with i18next.
 - [ ] Non relative (absolute) imports.
 - [ ] Component Error Boundaries.
-- [x] Automatic code splitting.
-- [x] Automatic transpilation and bundling (with webpack and babel).
 - [ ] Hot code reloading.
 - [ ] Automatic testing with Jest.
 - [ ] Serverless continuous deployment with Zeith.
@@ -79,11 +91,25 @@ Lift, Emanate, Binance, Hulu, Leafly, Hashnode, Twitch, Elastic, Expo, Ferrari a
 
 ...
 
-## NextJS vs Gatsby
+## Dev Setup
 
-Use Next.js for Apps, Gatsby for Websites.
+...
 
-https://syntax.fm/show/120/gatsby-vs-next
+### Prerequisite Software
+
+...
+
+## Testing
+
+...
+
+## TELOS DreamStack
+
+This repository is part of the TELOS DreamStack Project which provides set of guidelines, tools and starters to speed up dApp development while following best practices for security, performance and maintainability of your application.
+
+Blockmatic code style convention aims to maximize reusability and facilitate collaboration. We have chosen the stack carefully so that it allows us to write robust and performant ReactJS and React Native applications with more concise and readable code.
+
+https://blockmatic.github.io/telos-dreamstack/
 
 ## TELOS DreamStack
 
