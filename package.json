@@ -42,6 +42,7 @@
     "@types/node": "^12.12.7",
     "@types/react": "^16.9.11",
     "@types/theme-ui": "^0.2.4",
+    "all-contributors-cli": "^6.10.0",
     "eslint": "^5.0.0",
     "eslint-plugin-react-hooks": "^2.2.0",
     "husky": "^3.0.9",
