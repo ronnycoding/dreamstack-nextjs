@@ -19,6 +19,12 @@
 
 NextJS framework for TELOS and EOSIO dApps. Take the pain out of creating Universal React apps with blockchain integration.
 
+## TELOS
+
+Best in class C++ EOSIO protocol technology providing fast, scalable and eco-freindly blockchain augmented by a growing library of Telos services and innovations. Free accounts, work proposals, dapp grants, decentralized exchange, dstor, bancor protocol, telos community and foundation.
+
+[Learn more](https://docs.telosdreamstack.io/smart-contracts/telos-blockchain)
+
 ## NextJS
 
 Next.js extends React to provide a powerful method for loading a page's initial data, no matter where it is coming from. With a single place to prepopulate page context, server-side rendering with Next.js seamlessly integrates with any existing data-fetching strategy.
@@ -37,14 +43,10 @@ Use Next.js for Apps, Gatsby for Websites.
 
 https://syntax.fm/show/120/gatsby-vs-next
 
-## TELOS
-
-Best in class C++ EOSIO protocol technology providing fast, scalable and eco-freindly blockchain augmented by a growing library of Telos services and innovations. Free accounts, work proposals, dapp grants, decentralized exchange, dstor, bancor protocol, telos community and foundation.
-
 ## Disclaimer
 
 This is a work in progress. Feel free to reach us out on telegram for clarifications.
-https://t.me/blockmatic
+https://t.me/telosdreamstack
 
 ## Features
 
@@ -63,7 +65,7 @@ https://t.me/blockmatic
 - [ ] Serverless continuous deployment with Zeith.
 - ...
 
-## dApp Architecture
+## Architecture
 
 ...
 
@@ -91,13 +93,11 @@ https://t.me/blockmatic
 
 ...
 
-## Dev Setup
+
+### Prerequisites
 
 ...
 
-### Prerequisite Software
-
-...
 
 ## Testing
 
