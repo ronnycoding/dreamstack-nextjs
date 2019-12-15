@@ -7,14 +7,14 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "format": "prettier --write {components,src,pages}/**/*.{js,ts,tsx} ",
-    "test": "dev-scripts test",
-    "lint": "dev-scripts lint",
-    "commit": "dev-scripts commit",
-    "release": "dev-scripts release"
+    "lint": "eslint --ignore-path .gitignore '**/*.+(js|ts|tsx)'",
+    "prettier": "prettier --ignore-path .gitignore --write '**/*.+(js|json|ts|tsx)'",
+    "format": "yarn prettier --write",
+    "check-format": "yarn prettier --list-different",
+    "validate": "yarn check-format && yarn lint && yarn build"
   },
   "lint-staged": {
-    "*.{js,ts,tsx}": [
+    "*.{ts,tsx,js}": [
       "prettier --write",
       "eslint --fix",
       "git add"
@@ -36,17 +36,18 @@
     "theme-ui": "^0.2.46"
   },
   "devDependencies": {
-    "@blockmatic/dev-scripts": "^1.6.1",
-    "@blockmatic/eslint-config": "^1.2.0",
-    "@blockmatic/tsconfig": "^1.2.3",
+    "@blockmatic/eslint-config": "^1.3.5",
+    "@blockmatic/prettier-config": "^1.2.2",
+    "@blockmatic/tsconfig": "^1.6.0",
     "@types/node": "^12.12.7",
     "@types/react": "^16.9.11",
     "@types/theme-ui": "^0.2.4",
     "all-contributors-cli": "^6.10.0",
-    "eslint": "^5.0.0",
+    "eslint": "^6.7.2",
     "eslint-plugin-react-hooks": "^2.2.0",
-    "husky": "^3.0.9",
+    "husky": "^3.1.0",
     "lint-staged": "^9.4.2",
+    "prettier": "^1.19.1",
     "tsconfig-paths-webpack-plugin": "^3.2.0",
     "typescript": "3.5"
   }
