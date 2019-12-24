@@ -15,9 +15,9 @@
 	</a>
 </p>
 
-# TELOS NextJS dApp Starter
+# EOSIO NextJS dApp Starter
 
-NextJS framework for TELOS and EOSIO dApps. Take the pain out of creating Universal React apps with blockchain integration.
+NextJS starter for EOSIO dApps. Take the pain out of creating Universal React apps with blockchain integration.
 
 ## TELOS
 
